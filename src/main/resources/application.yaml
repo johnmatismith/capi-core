@@ -1,0 +1,13 @@
+
+server:
+  servlet:
+    context-path: /capi-core
+
+management:
+  endpoints:
+    web:
+      base-path: /
+  server:
+    port: 8181
+    servlet:
+      context-path: /capi-core
